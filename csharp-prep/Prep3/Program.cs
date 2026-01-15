@@ -16,17 +16,15 @@ class Program
             {
                 Console.WriteLine("Lower");
             }
-            else if (guess < mnumber)
-            {
-                Console.WriteLine("Higher");
-            }
             else
             {
-                Console.WriteLine("You guessed it!");
+                Console.WriteLine("Higher");
             }
 
             Console.Write("What is your guess? ");
             guess = int.Parse(Console.ReadLine());
         }
+
+        Console.WriteLine("You guessed it!");
     }
 }
