@@ -41,21 +41,21 @@ class Program
         Console.WriteLine($"The average is: {average}");
         Console.WriteLine($"The largest number is: {lnumber}");
 
-        int smallestPositive = -1;
+        int sPositive = -1;
         foreach (int number in numbers)
         {
             if (number > 0)
             {
-                if (smallestPositive == -1 || number < smallestPositive)
+                if (sPositive == -1 || number < sPositive)
                 {
-                    smallestPositive = number;
+                    sPositive = number;
                 }
             }
         }
 
-        if (smallestPositive > 0)
+        if (sPositive > 0)
         {
-            Console.WriteLine($"The smallest positive number is: {smallestPositive}");
+            Console.WriteLine($"The smallest positive number is: {sPositive}");
         }
         else
         {
