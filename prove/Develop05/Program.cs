@@ -6,7 +6,7 @@ class Program
     {
         // Exceeding requirements: I added a leveling system to make the program more like a game.
         // The user levels up every 1000 points, and the program also displays
-        // a small congratulation message when points are earned.
+        // a small congratulation message when points are earned
 
         GoalManager manager = new GoalManager();
 
